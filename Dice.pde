@@ -40,7 +40,6 @@ class Die //models one single dice cube
   void roll()
   {
     rollNum=(int)(Math.random()*6);
-    System.out.println(rollNum);
     if (rollNum==0)
     {
       //1
